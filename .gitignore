@@ -11,30 +11,46 @@ __pycache__/
 venv/
 env/
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f144cfa (Organize Data Science modules and add Mod_18 regression project)
 # ==========================================
 # Jupyter Notebook
 # ==========================================
 
 .ipynb_checkpoints/
 
+<<<<<<< HEAD
 
 # ==========================================
 # VS Code
 # ==========================================
 
+=======
+# ==========================================
+# VS Code
+# ==========================================
+
+>>>>>>> f144cfa (Organize Data Science modules and add Mod_18 regression project)
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f144cfa (Organize Data Science modules and add Mod_18 regression project)
 # ==========================================
 # macOS
 # ==========================================
 
 .DS_Store
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f144cfa (Organize Data Science modules and add Mod_18 regression project)
 # ==========================================
 # Environment variables
 # ==========================================
@@ -42,19 +58,37 @@ env/
 .env
 .env.*
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f144cfa (Organize Data Science modules and add Mod_18 regression project)
+# ==========================================
+# Data Science
+# ==========================================
 # ==========================================
 # Data Science
 # ==========================================
 
-# Dados locais grandes
-datasets/raw/*
-datasets/processed/*
+# Raw datasets: ignore by default
+datasets/raw/**
 
-# Permitir manter apenas exemplos
-!datasets/raw/.gitkeep
-!datasets/processed/.gitkeep
+# Keep module directories
+!datasets/raw/Mod_*/
 
+# Keep structure
+!datasets/raw/Mod_*/.gitkeep
+
+# Allow small CSV datasets used in exercises
+!datasets/raw/Mod_*/*.csv
+
+# Processed datasets: keep local
+datasets/processed/**
+
+# Keep module directories
+!datasets/processed/Mod_*/
+
+# Keep structure only
+!datasets/processed/Mod_*/.gitkeep
 
 # ==========================================
 # Logs e temporários
@@ -63,7 +97,10 @@ datasets/processed/*
 *.log
 *.tmp
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f144cfa (Organize Data Science modules and add Mod_18 regression project)
 # ==========================================
 # Build / Package
 # ==========================================
@@ -72,7 +109,10 @@ build/
 dist/
 *.egg-info/
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f144cfa (Organize Data Science modules and add Mod_18 regression project)
 # ==========================================
 # Matplotlib
 # ==========================================

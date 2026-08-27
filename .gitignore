@@ -81,14 +81,18 @@ datasets/raw/**
 # Allow small CSV datasets used in exercises
 !datasets/raw/Mod_*/*.csv
 
-# Processed datasets: keep local
+# Processed datasets: ignore by default
 datasets/processed/**
 
 # Keep module directories
 !datasets/processed/Mod_*/
 
-# Keep structure only
+# Keep structure
 !datasets/processed/Mod_*/.gitkeep
+
+# Allow small processed files used in exercises
+!datasets/processed/Mod_*/*.csv
+!datasets/processed/Mod_*/*.xlsx
 
 # ==========================================
 # Logs e temporários
